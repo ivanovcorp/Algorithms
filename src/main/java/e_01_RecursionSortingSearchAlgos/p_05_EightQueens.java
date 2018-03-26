@@ -14,7 +14,7 @@ public class p_05_EightQueens {
 	
 	public static void main(String[] args) {
 		putQueens(0);
-		System.out.println("Found soulutions: " + solutionsFound);
+		System.out.println("Found soulutions: " + 	solutionsFound);
 	}
 	
 	static void putQueens(int row) {

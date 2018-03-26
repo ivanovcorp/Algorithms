@@ -3,7 +3,7 @@ package e_01_RecursionSortingSearchAlgos;
 public class p_02_FactorielRecursive {
 	
 	public static void main(String[] args) {
-		System.out.println(calculateFactoriel(5));
+		System.out.println(calculateFactoriel(10));
 	}
 	
 	public static long calculateFactoriel(long n) {

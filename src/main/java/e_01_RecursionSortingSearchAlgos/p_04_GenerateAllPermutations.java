@@ -3,7 +3,7 @@ package e_01_RecursionSortingSearchAlgos;
 public class p_04_GenerateAllPermutations {
 
 	public static void main(String[] args) {	
-		int[] arr = new int[8];
+		int[] arr = new int[3];
 		generate(0, arr);
 	}
 	
@@ -11,7 +11,7 @@ public class p_04_GenerateAllPermutations {
 		if (index == arr.length) {
 			print(arr);
 		} else {
-			for (int i = 0; i <= 1; i++) {
+			for (int i = 1; i <= 3; i++) {
 				arr[index] = i;
 				generate(index + 1, arr);
 			}
